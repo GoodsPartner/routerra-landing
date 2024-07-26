@@ -66,8 +66,11 @@
   body {
     @apply bg-background text-foreground;
   }
+  .section-tittle {
+    @apply font-medium text-[32px] mb-6;
+  }
 }
 
 html {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
