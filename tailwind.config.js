@@ -9,7 +9,7 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    container: {
+      container: {
       center: true,
       padding: "2rem",
       screens: {
@@ -18,6 +18,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        'primary-black': '#050924',
+        'stroke': '#D7DAF2',
+        'secondary-black': '#1E2551',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
