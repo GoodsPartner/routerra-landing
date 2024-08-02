@@ -3,7 +3,7 @@ import {Input} from "@/components/ui/input.tsx";
 import {Button} from "@/components/ui/button.tsx";
 
 export const Hero = () => {
-    return (<section className={'flex flex-col sm:flex-row sm:justify-between items-center '}>
+    return (<section className={' p-4 max-w-screen-xl mx-auto flex flex-col sm:flex-row sm:justify-between items-center '}>
         <div className={'sm:order-2 sm:w-[45%] max-h-[774px] '}>
             <img className={'w-full h-auto sm:min-h-[460px]'} src={hero} alt=""/>
         </div>

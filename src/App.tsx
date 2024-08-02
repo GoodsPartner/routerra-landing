@@ -8,7 +8,7 @@ import { CTA } from "./components/cta.component";
 function App() {
 
   return (
-    <div className={'p-4 max-w-screen-xl mx-auto'}>
+    <div className={''}>
         <Header/>
         <Hero/>
         <Benefits />
