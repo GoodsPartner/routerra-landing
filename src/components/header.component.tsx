@@ -24,7 +24,7 @@ export const Header = () => {
     const [isOpen, setOpen] = useState(false);
     return (
 
-        <header className={'flex items-center justify-between'}>
+        <header className={' p-4 max-w-screen-xl mx-auto flex items-center justify-between'}>
             <h1 className={'uppercase tracking-wider text-blue-600 '}>Routerra</h1>
             <div className={'hidden sm:block'}>
                 <Navigation/>
