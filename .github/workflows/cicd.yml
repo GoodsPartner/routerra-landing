@@ -31,6 +31,18 @@ jobs:
     - name: Build the project
       run: yarn build
 
+    - name: Print working directory
+      run: pwd
+
+    - name: List contents of dist directory
+      run: |
+        echo "Listing contents of /home/runner/work/routerra-landing:"
+        ls -al /home/runner/work/routerra-landing
+        echo "Listing contents of /home/runner/work/routerra-landing/routerra-landing:"
+        ls -al /home/runner/work/routerra-landing/routerra-landing
+        echo "Listing contents of /home/runner/work/routerra-landing/routerra-landing/dist:"
+        ls -al /home/runner/work/routerra-landing/routerra-landing/dist
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
