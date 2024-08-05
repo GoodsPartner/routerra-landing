@@ -71,11 +71,4 @@
 html {
   font-family: 'Ubuntu', sans-serif;
 }
-li {
-  list-style: disc;
-  margin-left: 16px;
-}
 
-li::marker {
-  color: #FF9800;
-}

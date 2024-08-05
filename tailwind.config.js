@@ -21,6 +21,7 @@ module.exports = {
         "purple-gradient-reverse": 'linear-gradient(136deg, #fff4e9 0%, #fff 26.41%, #fff 64.14%, #fff 83.6%, #e3e8ff 100%)',
       },
       colors: {
+        'orange': '#FF9800',
         'light-orange': '#FFF4E9',
         'light-blue': '#E3E8FF',
         'primary-black': '#050924',

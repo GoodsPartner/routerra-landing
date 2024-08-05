@@ -18,7 +18,7 @@ export const Benefits = () => {
                     <div className={'rounded-2xl border border-stroke p-6'}>
                         <h3 className={'text-2xl text-primary-black mb-6'}>Driver</h3>
                         <ul
-                            className={'text-lg md:text-xl'}>
+                            className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
                             <li className={'mb-3'}>Capacity</li>
                             <li className={'mb-3'}>Cost and fuel consumption</li>
                             <li className={'mb-3'}>Working schedule</li>
@@ -30,7 +30,7 @@ export const Benefits = () => {
                         <h3 className={'text-2xl text-primary-black mb-6'}>Client</h3>
                         <div className={'flex justify-between flex-col md:flex-row'}>
                             <ul
-                                className={'text-lg md:text-xl'}>
+                                className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
                                 <li className={'mb-3'}>Arrival time-window</li>
                                 <li className={'mb-3'}>Service time</li>
                                 <li className={'mb-3'}>Pre-assigned cars</li>
@@ -44,7 +44,7 @@ export const Benefits = () => {
                         <h3 className={'text-2xl text-primary-black mb-6'}>Business</h3>
                         <div className={'flex justify-between flex-col md:flex-row'}>
                             <ul
-                                className={'text-lg md:text-xl'}>
+                                className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
                                 <li className={'mb-3'}>Cost effectiveness</li>
                                 <li className={'mb-3'}>Analytics</li>
                                 <li className={'mb-3'}>Automation</li>
@@ -57,7 +57,7 @@ export const Benefits = () => {
                     <div className={'rounded-2xl border border-stroke p-6'}>
                         <h3 className={'text-2xl text-primary-black mb-6'}>Logistician</h3>
                         <ul
-                            className={'text-lg md:text-xl'}>
+                            className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
                             <li className={'mb-3'}>Route planning efficiency</li>
                             <li className={'mb-3'}>Load balancing</li>
                             <li className={'mb-3'}>Time saving</li>
