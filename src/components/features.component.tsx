@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button.tsx";
 
 export const Features = () => {
     return (
-        <div className={'bg-purple-gradient-reverse m-0 p-0 py-16 sm:py-28'}>
-            <section
-                className={' container mx-auto flex flex-col '}>
+        // <div className={'bg-purple-gradient-reverse m-0 p-0 py-16 sm:py-28'}>
+        // </div>
+        <section
+            className={' bg-purple-gradient-reverse m-0 p-0 py-16 sm:py-28 '}>
+            <div className={'container mx-auto flex flex-col'}>
                 <div
                     className={'flex flex-col items-center'}>
                     <h2
@@ -25,7 +27,7 @@ export const Features = () => {
                         }}
                     >Join waitlist</Button>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }

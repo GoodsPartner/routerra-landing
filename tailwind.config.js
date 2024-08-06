@@ -17,8 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow:{
+        "header": "0 1px 7px 0 rgba(155, 157, 184, 0.15);"
+      },
       backgroundImage: {
         "purple-gradient-reverse": 'linear-gradient(136deg, #fff4e9 0%, #fff 26.41%, #fff 64.14%, #fff 83.6%, #e3e8ff 100%)',
+        "purple-gradient": 'linear-gradient(45deg, #fff4e9 0%, #fff 26.41%, #fff 64.14%, #fff 83.6%, #e3e8ff 100%)'
       },
       colors: {
         'orange': '#FF9800',
