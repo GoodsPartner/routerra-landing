@@ -4,8 +4,8 @@ import stars from '@/assets/stars.png'
 
 export const Benefits = () => {
     return (
-        <div className={'bg-purple-gradient-reverse m-0 p-0 py-16 sm:py-28'}>
-            <section className={'container mx-auto flex flex-col'}>
+        <section className={'bg-purple-gradient-reverse m-0 p-0 py-16 sm:py-28'}>
+            <div className={'container mx-auto flex flex-col'}>
                 <div className={'flex flex-col items-center'}>
                     <h2 className={'md:w-3/5 text-3xl sm:text-5xl text-center pb-6 text-primary-black font-medium'}>
                         Routes planing shouldn’t be painful
@@ -18,7 +18,7 @@ export const Benefits = () => {
                     <div className={'rounded-2xl border border-stroke p-6'}>
                         <h3 className={'text-2xl text-primary-black mb-6'}>Driver</h3>
                         <ul
-                            className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
+                            className={'marker:text-orange ml-4 list-disc text-lg '}>
                             <li className={'mb-3'}>Capacity</li>
                             <li className={'mb-3'}>Cost and fuel consumption</li>
                             <li className={'mb-3'}>Working schedule</li>
@@ -30,7 +30,7 @@ export const Benefits = () => {
                         <h3 className={'text-2xl text-primary-black mb-6'}>Client</h3>
                         <div className={'flex justify-between flex-col md:flex-row'}>
                             <ul
-                                className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
+                                className={'marker:text-orange ml-4 list-disc text-lg '}>
                                 <li className={'mb-3'}>Arrival time-window</li>
                                 <li className={'mb-3'}>Service time</li>
                                 <li className={'mb-3'}>Pre-assigned cars</li>
@@ -44,20 +44,20 @@ export const Benefits = () => {
                         <h3 className={'text-2xl text-primary-black mb-6'}>Business</h3>
                         <div className={'flex justify-between flex-col md:flex-row'}>
                             <ul
-                                className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
+                                className={'marker:text-orange ml-4 list-disc text-lg'}>
                                 <li className={'mb-3'}>Cost effectiveness</li>
                                 <li className={'mb-3'}>Analytics</li>
                                 <li className={'mb-3'}>Automation</li>
                                 <li>Customer satisfaction</li>
                             </ul>
-                            <img className={'w-72 mt-4 md:mt-0'} src={stars} alt="" />
+                            <img className={'w-52 md:w-auto mt-4 md:mt-0'} src={stars} alt="" />
                         </div>
                     </div>
 
                     <div className={'rounded-2xl border border-stroke p-6'}>
                         <h3 className={'text-2xl text-primary-black mb-6'}>Logistician</h3>
                         <ul
-                            className={'marker:text-orange ml-4 list-disc text-lg md:text-xl'}>
+                            className={'marker:text-orange ml-4 list-disc text-lg '}>
                             <li className={'mb-3'}>Route planning efficiency</li>
                             <li className={'mb-3'}>Load balancing</li>
                             <li className={'mb-3'}>Time saving</li>
@@ -65,8 +65,8 @@ export const Benefits = () => {
                         </ul>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
