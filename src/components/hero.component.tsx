@@ -28,7 +28,7 @@ export const Hero = () => {
                     <a
                         href="https://app.routerra.io"
                         className={
-                            'rounded-[44px] flex justify-between bg-slate-600 ~pl-4/8 w-full sm:~w-52/81 items-center text-white ~text-lg/3xl ~mt-12/32'
+                            'rounded-[44px] flex justify-between bg-slate-600 ~pl-4/8 w-full sm:~w-52/80 items-center text-white ~text-2xl/3xl ~mt-12/32'
                         }
                     >
                         {t('try-it')}
