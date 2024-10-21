@@ -20,6 +20,7 @@ export const Header = () => {
                 <LanguageSwitcher />
                 <a
                     href="https://app.routerra.io"
+                    target={'_blank'}
                     className={'hidden bg-slate-900 text-white rounded-3xl px-8 py-3 font-semibold md:block'}
                 >
                     {t('sign-in')}
