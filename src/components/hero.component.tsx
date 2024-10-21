@@ -15,7 +15,7 @@ export const Hero = () => {
                 <div className={'flex flex-col ~px-6/20 ~py-8/32 md:w-[45%]'}>
                     <h1 className={'text-white leading-tight font-bold ~text-4xl/7xl'}>
                         {t('route')} <span className={'text-[#C5ABFD]'}>{t('planning')}</span> <br />
-                        {t('')}made <span className={'text-[#FCBCAA]'}>{t('simple')}</span>
+                        {t('made')} <span className={'text-[#FCBCAA]'}>{t('simple')}</span>
                     </h1>
 
                     <img

@@ -16,21 +16,19 @@ export const LanguageSwitcher = () => {
     };
 
     return (
-        <>
-            <Select onValueChange={changeLanguage}>
-                <SelectTrigger className="outline-none">
-                    <div className={'text-slate-900 border rounded-full border-slate-900 p-[11px]'}>
-                        <Globe className={'size-4 md:size-6'} />
-                    </div>
-                </SelectTrigger>
-                <SelectContent>
-                    {Object.keys(languages).map(lng => (
-                        <SelectItem key={lng} value={lng}>
-                            {languages[lng as keyof typeof languages]}
-                        </SelectItem>
-                    ))}
-                </SelectContent>
-            </Select>
-        </>
+        <Select onValueChange={changeLanguage}>
+            <SelectTrigger className="outline-none">
+                <div className={'text-slate-900 border rounded-full border-slate-900 p-[11px]'}>
+                    <Globe className={'size-4 md:size-6'} />
+                </div>
+            </SelectTrigger>
+            <SelectContent>
+                {Object.keys(languages).map(lng => (
+                    <SelectItem key={lng} value={lng}>
+                        {languages[lng as keyof typeof languages]}
+                    </SelectItem>
+                ))}
+            </SelectContent>
+        </Select>
     );
 };
