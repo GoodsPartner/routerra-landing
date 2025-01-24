@@ -1,5 +1,7 @@
+import { Footer } from './components/footer.component';
 import { Header } from './components/header.component'
 import { Hero } from './components/hero.component';
+import { Steps } from './components/steps.component';
 
 export default function Home() {
   return (
@@ -8,6 +10,10 @@ export default function Home() {
         <Header />
         <Hero />
       </div>
+      <Steps />
+
+      <Footer />
+
     </main>
   );
 }

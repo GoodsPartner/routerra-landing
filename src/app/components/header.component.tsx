@@ -12,8 +12,8 @@ export  function Header() {
     <div className="px-4 py-3 flex justify-between items-center lg:px-10 lg:py-8">
       <Image src={logo} alt="Routerra Logo" className="w-auto lg:w-[220px]"/>
       <div className="flex items-center gap-2">
-        <Link href="https://app.routerra.com">
-            <Button>Sign in</Button>
+        <Link href="https://app.routerra.io">
+            <Button size="sm">Sign in</Button>
         </Link>
         {/* <Menu /> */}
       </div>

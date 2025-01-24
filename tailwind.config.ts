@@ -57,7 +57,7 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		maxWidth: {
-			'8xl': '1426px'
+			'8xl': '1506px'
 		},
 
 		fontSize: {
