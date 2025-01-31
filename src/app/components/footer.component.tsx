@@ -8,10 +8,11 @@ import Link from "next/link"
 export const Footer = () => {
     return (
         <footer className="px-4 lg:px-10">
-            <div className='border-t border-slate-200 py-6 flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:py-8'>
+            <div className='border-t border-slate-200 py-8 flex flex-col gap-y-6 lg:flex-row lg:justify-between lg:py-8'>
                 <div>
                     <Image src={logo} alt="Routerra Logo" className="w-[176px]"/>
-                    <p className="mt-6 text-slate-400 leading-normal">© 2025 Routerra. All right reserved.</p>
+                    <p className="mt-6 text-slate-400 text-sm leading-normal lg:text-base">© 2025 Routerra. All right reserved.</p>
+                    <p className="mt-2 text-slate-400 text-sm leading-normal lg:text-base">Icons made by UIcons and from <Link href="https://www.flaticon.com">www.flaticon.com</Link></p>
                 </div>
                 <div className="flex flex-col gap-y-6">
                     <div className="flex gap-x-4 lg:justify-end">
