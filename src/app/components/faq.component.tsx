@@ -9,7 +9,7 @@ import Image from "next/image"
 
 export const Faq = () => {
     return (
-        <div className='max-w-2xl px-4 pb-16 lg:pt-16 lg:px-10 lg:max-w-8xl mx-auto '>
+        <div className='max-w-2xl px-4 lg:pb-16 py-8 lg:px-10 lg:max-w-8xl mx-auto '>
              <div className='flex gap-x-3 items-start lg:items-center'>
                 <Image src={faq} alt="Steps" className='size-8 lg:size-[54px]'/>
                 <h2 className='text-2xl font-bold text-slate-900 lg:text-[40px]'>Questions you may have</h2>
