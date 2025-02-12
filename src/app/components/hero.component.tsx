@@ -21,7 +21,7 @@ export const Hero = () => {
                     <Link href="https://app.routerra.io">
                         <Button className="flex-1 max-w-64">Start using for free</Button>
                     </Link>
-                    <Link href="https://www.youtube.com/watch?v=EYALx8cRVuM">
+                    <Link href="https://www.youtube.com/watch?v=nRf5nvVVEZw&ab_channel=RouterraApp" target="_blank">
                         <Button className="flex-1 max-w-64" variant="secondary">Watch demo</Button>
                     </Link>
                 </div>
