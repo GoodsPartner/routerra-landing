@@ -26,7 +26,7 @@ export const Hero = () => {
                     </Link>
                 </div>
                 <div className="mt-12 lg:mt-[72px]">
-                    <h4 className="text-sm text-slate-400">Trusted by drives from</h4>
+                    <h4 className="text-sm text-slate-400">Trusted by drivers from</h4>
                     <div className="flex items-center gap-x-4 mt-4 lg:gap-x-8">
                         <Image src={FedEx} alt="FedEx" className="lg:w-[70px] lg:h-[21px]"/>
                         <Image src={us_postal} alt="US Postal" className="lg:w-[96px] lg:h-[16px]"/>

@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div>
                     <Image src={logo} alt="Routerra Logo" className="w-[176px]"/>
                     <p className="mt-6 text-slate-400 text-sm leading-normal lg:text-base">© 2025 Routerra. All right reserved.</p>
-                    <p className="mt-2 text-slate-400 text-sm leading-normal lg:text-base">Icons made by UIcons and from <Link href="https://www.flaticon.com">www.flaticon.com</Link></p>
+                    <p className="mt-2 text-slate-400 text-sm leading-normal lg:text-base">Icons made by  <Link href={'https://www.freepik.com/author/uicons/icons'}>UIcons</Link> and from <Link href="https://www.flaticon.com">www.flaticon.com</Link></p>
                 </div>
                 <div className="flex flex-col gap-y-6">
                     <div className="flex gap-x-4 lg:justify-end">
