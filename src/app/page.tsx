@@ -5,6 +5,7 @@ import { Hero } from './components/hero.component';
 import { Steps } from './components/steps.component';
 import { Testimonials } from './components/testimonials.component';
 import { Demo } from './components/demo.component';
+import { Price } from './components/price.component'
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <Steps />
       <Testimonials />
+      <Price />
       <Demo />
       <Faq />
       <Footer />
